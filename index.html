@@ -6,23 +6,61 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Matcha</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fascinate&display=swap" rel="stylesheet">
 </head>
 <!-- ctrl + shift + A -->
+
 <body>
-    <h1>
-        Build your business
-    </h1>
-    <form> 
-        <input type="email">
-        <button type="submit">
-            Try it now &rarr;
-        </button>
-    </form>
-    <p>
-        Construye tu blog, lo puedes construir <strong>aquí</strong>
-    </p>
-    <img src="https://ignos.blog/wp-content/uploads/2021/04/capterra.png" 
-    alt="Icono de la pagina">
+    <header class="header">
+        <!-- la etiqueta a es como un hipervinculo -->
+        <!-- regresar a pagina principal -->
+        <a href="/" class="logo">
+            <!-- href define el destino del link -->
+            <img src="https://getmatcha.com/wp-content/uploads/2020/01/Icon-green.png" alt="logo de matcha" width="100"
+                height="100">
+        </a>
+        <!-- menu -->
+        <nav class="navbar">
+            <ul>
+                <li>Products</li>
+                <li>Templates</li>
+                <li>Princing</li>
+                <li>Blog</li>
+            </ul>
+
+        </nav>
+
+        <!-- contrro + shift  + I para dar la sangria correcta -->
+
+        <div class="actions">
+            <!-- el div para aniadir acciones  -->
+            <a>Sign In</a> <!-- el a define un hipervinculo -->
+            <button>Start free trial</button>
+        </div>
+
+    </header>
+
+    <section class="main">
+        <h1>Build your business</h1>
+        <form>
+            <input type="email">
+            <button type="submit">
+                Try it now &rarr;
+            </button>
+        </form>
+        <p>
+            Construye tu blog, lo puedes construir <strong>aquí</strong>
+        </p>
+        <img src="https://ignos.blog/wp-content/uploads/2021/04/capterra.png" alt="Icono de la pagina" width="100"
+            height="200">
+
+    </section>
+
+
+
 </body>
 
 </html>
